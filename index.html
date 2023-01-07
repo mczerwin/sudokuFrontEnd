@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SudokuSolver</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Sudoku Solver</h1>  
+        <h3 id="description">Enter the puzzle you wish to solve below</h3>
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table>
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table> 
+        <table>
+            <tr>
+               <td>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+                  <input class='field' type='text' size='5'>
+               </td>
+             </tr>
+        </table>
+        <input type="submit" value="Solve!" onclick="submitPuzzle()">
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
+
+
+
